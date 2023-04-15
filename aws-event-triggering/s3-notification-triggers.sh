@@ -13,7 +13,7 @@ aws_region="us-east-1"
 bucket_name="vinoth-scripting-bucket"
 lambda_func_name="s3-script-lambda-function"
 role_name="s3-lambda-sns"
-email_address="vinothvenky93.com"
+email_address="vinothvenky93@gmail.com"
 
 # Create IAM Role for the project
 role_response=$(aws iam create-role --role-name s3-lambda-sns --assume-role-policy-document '{
